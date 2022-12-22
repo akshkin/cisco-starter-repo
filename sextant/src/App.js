@@ -1,12 +1,16 @@
 import './App.css';
 import Banner from './components/banner/banner';
 import Exhibit from './components/exhibit/exhibit';
+import UserIP from './components/userIP';
 
 function App() {
   return (
     <div className="App">
       <Banner />
-      <Exhibit />
+      <Exhibit>
+        <UserIP address="ipv4" />
+        <UserIP address="ipv6"/>
+      </Exhibit>
     </div>
   );
 }
