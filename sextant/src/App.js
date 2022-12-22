@@ -9,6 +9,8 @@ function App() {
       <Banner />
       <Exhibit>
         <UserIP address="ipv4" />
+      </Exhibit>
+      <Exhibit>
         <UserIP address="ipv6"/>
       </Exhibit>
     </div>

@@ -12,7 +12,7 @@ function UserIP({ address }) {
   }, [])
 
   return (
-    <div>{address === "ipv4"? "User's IPv4": "User's IPv6" }: {ipAddress}</div>
+    <div>{address === "ipv4"? "Public IPv4 address": "Public IPv6 address" }: {ipAddress}</div>
   )
 }
 
