@@ -1,0 +1,6 @@
+.card-container{
+  background: linear-gradient(-90deg, #43cea2, #185a9d);
+  color: white;
+  padding: 1em;
+  border-radius: 5px;;
+}
