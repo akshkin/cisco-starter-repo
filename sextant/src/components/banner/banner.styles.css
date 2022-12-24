@@ -1,0 +1,11 @@
+header{
+  background: linear-gradient(100deg, #000428, #004e92);
+  color: white;
+  padding: 3em 1em;
+  margin-bottom: 1em; 
+  text-align: center;
+}
+header .logo{
+  width: 100px;
+  height: 60px;
+}

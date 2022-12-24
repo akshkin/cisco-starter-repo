@@ -1,10 +1,13 @@
 import React from 'react'
+import "./banner.styles.css"
+import {ReactComponent as Logo} from "../../assets/cisco-logo.svg"
 
 function Banner() {
   return (
-    <div>
-      <h1>Sextant Project</h1>
-    </div>
+    <header>
+      <Logo className="logo"/>
+      <h1>Sextant Network Dashboard</h1>
+    </header>
   )
 }
 

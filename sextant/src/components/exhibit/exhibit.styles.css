@@ -3,5 +3,16 @@
   color: white;
   padding: 1em;
   border-radius: 5px;
-  margin-bottom: 1em;
+  margin: 1em;
+  max-width: 600px;
+}
+.card-container > h2{
+  margin-top: 0;
+  padding-bottom: 0.5em;
+  border-bottom: 1px solid #43cea2;
+}
+@media (min-width: 650px) {
+  .card-container{
+    margin: 1em auto;
+  }
 }

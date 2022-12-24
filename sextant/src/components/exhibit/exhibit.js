@@ -1,10 +1,10 @@
 import React from 'react'
 import "./exhibit.styles.css"
 
-function Exhibit({ children }) {
+function Exhibit({ title, children }) {
   return (
     <div className='card-container'>
-      <h2>Heading</h2>
+      <h2>{title}</h2>
       <div>{children}</div>
     </div>
   )
